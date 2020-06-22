@@ -1,0 +1,17 @@
+{
+	"name": "SourceDataset_wdv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "adf-by-example"
+			}
+		}
+	}
+}
