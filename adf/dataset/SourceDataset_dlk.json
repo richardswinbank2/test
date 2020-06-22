@@ -1,0 +1,19 @@
+{
+	"name": "SourceDataset_dlk",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adfbyexamplesa",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "SampleData",
+				"container": "source"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
