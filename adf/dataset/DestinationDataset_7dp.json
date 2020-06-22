@@ -1,0 +1,18 @@
+{
+	"name": "DestinationDataset_7dp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "copied",
+				"container": "adf-by-example"
+			}
+		}
+	}
+}
